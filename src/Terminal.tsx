@@ -2,8 +2,8 @@ import React from 'react';
 import Box from './Box';
 import './buttons.css';
 
-type TerminalProps = {
-	children: React.ReactNode
+export type TerminalProps = {
+	children?: React.ReactNode
 	style?: React.CSSProperties
 	className?: string
 	windowDecoration?: boolean
@@ -19,7 +19,7 @@ const macosWindowDecoration = () => {
 	)
 }
 
-const Terminal: React.FunctionComponent<TerminalProps> = (props: TerminalProps) => {
+export function Terminal(props: TerminalProps) {
 	const { children, style, className, windowDecoration } = props;
 
 	return (
@@ -31,5 +31,3 @@ const Terminal: React.FunctionComponent<TerminalProps> = (props: TerminalProps) 
 		</div >
 	);
 }
-
-export default Terminal;

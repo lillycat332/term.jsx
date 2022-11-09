@@ -7,6 +7,4 @@ node_modules/
 # dotenv environment variables file
 .env
 
-dist
-
 yarn-error.log

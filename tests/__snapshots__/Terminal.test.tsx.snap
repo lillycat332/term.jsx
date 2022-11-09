@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Terminal renders 1`] = `
+<div>
+  <div
+    class="code"
+  >
+    <div>
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Terminal renders with children 1`] = `
+<div>
+  <div
+    class="code"
+  >
+    <div>
+       
+      <div>
+        <p
+          id="child"
+        >
+          this is a child
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Terminal renders with window decoration 1`] = `
+<div>
+  <div
+    class="code"
+  >
+    <div>
+       
+      <div
+        class="base-circle close-circle"
+      />
+      <div
+        class="base-circle min-circle"
+      />
+      <div
+        class="base-circle max-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Terminal renders with window decoration and children 1`] = `
+<div>
+  <div
+    class="code"
+  >
+    <div>
+       
+      <div
+        class="base-circle close-circle"
+      />
+      <div
+        class="base-circle min-circle"
+      />
+      <div
+        class="base-circle max-circle"
+      />
+      <div>
+        <p
+          id="child"
+        >
+          this is a child
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
