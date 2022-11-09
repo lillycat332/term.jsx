@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from './Box';
-import './buttons.css';
+import styles from './buttons.module.css';
 
 export type TerminalProps = {
 	children?: React.ReactNode
@@ -12,7 +12,7 @@ export type TerminalProps = {
 const macosWindowDecoration = () => {
 	return (
 		<>
-			<div className='base-circle close-circle'></div>
+			<div className={[styles['base-circle'], styles['close-circle']].join(' ')}></div>
 			<div className='base-circle min-circle'></div>
 			<div className='base-circle max-circle'></div>
 		</>

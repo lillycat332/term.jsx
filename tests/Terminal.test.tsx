@@ -2,10 +2,9 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
 import { render } from '@testing-library/react';
 
-import Terminal from '../src/Terminal'
+import { Terminal } from '../src/Terminal'
 
 
 const children = (
