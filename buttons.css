@@ -1,0 +1,22 @@
+.base-circle {
+  display: flex;
+	float: left;
+  width: 10px;
+  height: 10px;
+	border-radius: 50%;
+	margin: 0.5%;
+	padding: 0.2%;
+	margin-bottom: 2%;
+}
+
+.close-circle {
+  background-color: #ed6a5e;
+}
+
+.max-circle {
+  background-color: #62c554;
+}
+
+.min-circle {
+	background-color: #f5bf4f;
+}
