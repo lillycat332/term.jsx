@@ -1,14 +1,14 @@
 {
   "name": "term.jsx",
-  "version": "2.0.0",
+  "version": "2.6.0",
   "description": "Terminal Component for React",
-  "main": "src",
+  "main": "index.js",
   "author": "Lilly Cham",
   "license": "MIT",
 
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "yarn run clean && tsc && cp package.json README.md ./dist"
+    "build": "yarn run clean && tsc && cp package.json README.md src/buttons.module.css ./dist"
   },
 
   "devDependencies": {
