@@ -1,8 +1,8 @@
 {
   "name": "term.jsx",
-  "version": "2.1.0",
+  "version": "2.5.0",
   "description": "Terminal Component for React",
-  "main": "src",
+  "main": "index.js",
   "author": "Lilly Cham",
   "license": "MIT",
   "scripts": {
